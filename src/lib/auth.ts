@@ -9,7 +9,6 @@ const cookieName = "auth-tocken";
 
 //Encrypt and sign token
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function signAuthToken(payload: any) {
 	try {
 		const token = await new SignJWT(payload)
