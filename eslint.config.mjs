@@ -15,6 +15,9 @@ const eslintConfig = [
 		"next/typescript"
 	),
 	{
+		ignores: ["./src/generated/**", "src/generated/**"],
+	},
+	{
 		rules: {
 			"@typescript-eslint/no-explicit-any": "off",
 		},
