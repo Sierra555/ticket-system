@@ -5,6 +5,8 @@ const HomePage = () => {
 	return (
 		<main className="flex flex-col text-center items-center justify-center min-h-screen px-4">
 			<FaTicketAlt
+				// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+				// @ts-ignore
 				className="mx-auto mb-4 text-red-600"
 				size={60}
 			/>
